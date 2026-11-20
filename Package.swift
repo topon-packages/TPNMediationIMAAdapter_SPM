@@ -12,13 +12,13 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/topon-packages/TPNiOS_SPM.git", from: "6.5.60"),
-        .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git", exact: "3.27.4")
+        .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git", exact: "3.34.1")
     ],
     targets: [
         .binaryTarget(
             name: "AnyThinkIMAAdapter",
-            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkIMAAdapter/3.27.4.2.9/AnyThinkIMAAdapter-3.27.4.2.9.zip",
-            checksum: "7a6648e37eb776e612f84f1f49b8cb3c5ba9ccdc7abba87b8a3fab357c62846f"
+            url: "https://topon-sdk-release.oss-accelerate.aliyuncs.com/TPN_Release/iosnetwork_2/AnyThinkIMAAdapter/33401.2.10/AnyThinkIMAAdapter-33401.2.10.zip",
+            checksum: "7a3ba84432f573d2c9cca8375e4fdb5051be1377aa7caeee33d268399be6674f"
         ),
         .target(
             name: "TPNMediationIMAAdapterTarget",
